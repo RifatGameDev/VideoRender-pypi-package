@@ -5,16 +5,19 @@ This repository contains the source code and documentation for the Video Rendere
 # How to run?
 ## Installation:
 
-#### Create a conda environment
+1. Create a conda environment
 
 ```bash
 conda create -n vidrender python=3.8 -y
 ```
 
+2. Activate the virtual enviroment
+
 ```bash
 conda activate vidrender
 ```
 
+3. Install the required package
 
 ```bash
 pip install -r requirements_dev.txt
