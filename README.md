@@ -8,13 +8,15 @@ This repository contains the source code and documentation for the Video Rendere
 #### Create a conda environment
 
 ```bash
-conda create -n vidrender python=3.8 -y
+conda create -n inrenderer python=3.8 -y
 ```
 
 ```bash
-conda activate vidrender
+conda activate inrenderer
 ```
+
 
 ```bash
 pip install -r requirements_dev.txt
+```
 
