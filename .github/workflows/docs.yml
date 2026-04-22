@@ -1,9 +1,11 @@
-name: Deploy Docs
+name: Deploy-Docs
 
 on:
   push:
     branches:
       - main
+    paths-ignore:
+       - 'README.md'
 
 permissions:
   contents: write   # 🔥 THIS IS THE KEY FIX
